@@ -43,3 +43,9 @@ Before we start analyzing **VulnServer**, we need to set up our environment.
 
 ![Immunity Debugger Screenshot](Screenshots/2.png)
 
+
+## Connecting to VulnServer  
+Now, switch to your **Kali Linux** (or any other preferred penetration testing OS) and try to connect to the **VulnServer** running on port **9999**.  
+If the server is running correctly, you should see an output like this:  
+
+
