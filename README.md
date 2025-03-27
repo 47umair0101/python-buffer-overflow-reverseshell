@@ -83,4 +83,4 @@ Typically, we create a **spiking template file** for each command to test them i
 The first step is to determine whether the **TRUN** command is vulnerable to a **buffer overflow**.  
 
 To do this, we create a **spiking template file** for the **TRUN** command and save it as `trun.spk`.
-
+![Immunity Debugger Screenshot](Screenshots/8.png)
