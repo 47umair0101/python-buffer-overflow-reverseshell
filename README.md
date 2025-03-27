@@ -67,3 +67,10 @@ Now, switch back to the **Windows machine** and attach the **VulnServer** progra
 It should looks like this after we’ve successfully attached the process into Immunity Debugger.
 
 ![Immunity Debugger Screenshot](Screenshots/6.png)
+
+
+## Finding Buffer Overflow Vulnerabilities  
+
+Once the environment is set up, we can start identifying vulnerabilities in the **VulnServer** binary. The first step is to perform **spiking** on the available commands to check for potential buffer overflow issues.  
+
+Typically, we create a **spiking template file** for each command to test them individually. However, in this guide, we will focus on testing the **TRUN** command.
