@@ -41,4 +41,5 @@ Before we start analyzing **VulnServer**, we need to set up our environment.
 1. Run **VulnServer** on the **Windows machine** and make sure it is listening on port **9999**.  
 2. Use the **Kali Linux machine** to test and exploit the vulnerability.  
 
+![Immunity Debugger Screenshot](Screenshots/2.png)
 
