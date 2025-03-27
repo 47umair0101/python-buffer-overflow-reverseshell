@@ -47,11 +47,10 @@ Before we start analyzing **VulnServer**, we need to set up our environment.
 
 ## Connecting to VulnServer  
 Now, switch to your **Kali Linux** (or any other preferred penetration testing OS) and try to connect to the **VulnServer** running on port **9999** using **Netcat**:  
+
 ```bash
 nc -v 10.0.2.15 9999
 
-
-
+##
 ![Immunity Debugger Screenshot](Screenshots/3.png)
-
 
