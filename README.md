@@ -26,5 +26,19 @@ This guide is beginner-friendly and includes step-by-step explanations with Pyth
 - It is designed for learning **buffer overflow exploitation** in a controlled environment.  
 - Each vulnerability requires a slightly different approach to exploit, helping improve your skills.  
 - Though it mimics a basic server, it has no real-world functionality beyond being a **safe target for testing exploits**.  
-- This tool is ideal for those wanting to **learn, test, and practice buffer overflow attacks** in a safe way. 🚀  
+- This tool is ideal for those wanting to **learn, test, and practice buffer overflow attacks** in a safe way. 🚀
+
+
+## Setting Up the Environment  
+
+Before we start analyzing **VulnServer**, we need to set up our environment.  
+
+### Machines Used:  
+- **Target Machine (Victim):** Windows 7 x86 Starter Edition (running VulnServer on port **9999**)  
+- **Attacker Machine:** Kali Linux (used to find and exploit the vulnerability)  
+
+### Steps:  
+1. Run **VulnServer** on the **Windows machine** and make sure it is listening on port **9999**.  
+2. Use the **Kali Linux machine** to test and exploit the vulnerability.  
+
 
