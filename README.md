@@ -51,5 +51,5 @@ Now, switch to your **Kali Linux** (or any other preferred penetration testing O
 ```bash
 nc -v 10.0.2.15 9999
 ```
-![Netcat Screenshot](Screenshots/3.png) 
+
 
