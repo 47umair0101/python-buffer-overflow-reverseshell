@@ -83,4 +83,13 @@ Typically, we create a **spiking template file** for each command to test them i
 The first step is to determine whether the **TRUN** command is vulnerable to a **buffer overflow**.  
 
 To do this, we create a **spiking template file** for the **TRUN** command and save it as `trun.spk`.
+
 ![Immunity Debugger Screenshot](Screenshots/8.png)
+
+### Breakdown of the Spiking Template Functions  
+
+- `s_readline` : Reads the binary banner.  
+- `s_string` : Places the string in each iteration of spiking.  
+- `s_string_variable` : Appends the fuzzed string into the spike.  
+
+Before starting the spiking process, run **Wireshark** to capture network packets for further analysis.
