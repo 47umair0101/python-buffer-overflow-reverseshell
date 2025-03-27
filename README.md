@@ -53,3 +53,10 @@ nc -v 10.0.2.15 9999
 ```
 
 ![Netcat Screenshot](Screenshots/3.png) 
+
+
+
+
+## Attaching VulnServer to Immunity Debugger  
+Now, switch back to the **Windows machine** and attach the **VulnServer** program to **Immunity Debugger**. This will allow us to monitor the **registers** and **stack** while testing for vulnerabilities.
+
