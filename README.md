@@ -76,3 +76,11 @@ Once the environment is set up, we can start identifying vulnerabilities in the 
 Typically, we create a **spiking template file** for each command to test them individually. However, in this guide, we will focus on testing the **TRUN** command.
 
 ![Immunity Debugger Screenshot](Screenshots/7.png)
+
+
+### 1. Spiking (Checking for Buffer Overflow Vulnerability)  
+
+The first step is to determine whether the **TRUN** command is vulnerable to a **buffer overflow**.  
+
+To do this, we create a **spiking template file** for the **TRUN** command and save it as `trun.spk`.
+
