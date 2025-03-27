@@ -1,5 +1,5 @@
-# Exploiting Buffer Overflow in VulnServer
-VulnServer is useful for beginners who want to learn how to find buffer overflow vulnerabilities and develop their own exploit scripts.
+# VulnServer for Beginners Buffer Overflow Python and Reverse Shell Exploitation
+VulnServer is a great tool for beginners who want to learn how to find buffer overflow vulnerabilities and develop exploit scripts using Python. This guide will walk you through the basics of stack-based buffer overflow and show you how to create a reverse shell exploit step by step.
 
 ## **Setting Up The Environment**
 - Start the VulnServer program on Windows.
