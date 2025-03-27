@@ -5,7 +5,7 @@ VulnServer is a great tool for beginners who want to learn how to find buffer ov
 - Start the VulnServer program on Windows.
 - Attach it to **Immunity Debugger**.
 
-![Immunity Debugger Screenshot](images/immunity_debugger.png)
+![Immunity Debugger Screenshot](Screenshots/1.png)
 
 ## **Finding Buffer Overflow Vulnerabilities**
 1. **Spiking** - Determine if the command is vulnerable to buffer overflow.
