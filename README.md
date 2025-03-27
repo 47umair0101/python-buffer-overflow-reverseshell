@@ -63,3 +63,7 @@ Now, switch back to the **Windows machine** and attach the **VulnServer** progra
 ![Immunity Debugger Screenshot](Screenshots/4.png) 
 
 ![Immunity Debugger Screenshot](Screenshots/5.png) 
+
+It should looks like this after we’ve successfully attached the process into Immunity Debugger.
+
+![Immunity Debugger Screenshot](Screenshots/6.png)
