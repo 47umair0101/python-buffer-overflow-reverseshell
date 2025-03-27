@@ -18,3 +18,14 @@ In this documentation, you will learn how to:
 
 This guide is beginner-friendly and includes step-by-step explanations with Python scripting and reverse shell execution.  
 
+## About VulnServer  
+
+[VulnServer](https://github.com/stephenbradshaw/vulnserver) is a Windows-based multithreaded TCP server that listens for client connections on port **9999** (by default). It includes multiple commands, some of which are intentionally vulnerable to buffer overflow attacks.  
+
+### Why Use VulnServer?  
+- It is designed for learning **buffer overflow exploitation** in a controlled environment.  
+- Each vulnerability requires a slightly different approach to exploit, helping improve your skills.  
+- Though it mimics a basic server, it has no real-world functionality beyond being a **safe target for testing exploits**.  
+
+This tool is ideal for those wanting to **learn, test, and practice buffer overflow attacks** in a safe way. 🚀  
+
